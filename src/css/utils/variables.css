@@ -1,0 +1,31 @@
+:root{
+/* Color styles */
+--vert-1: rgba(66, 232, 102, 1);
+--vert-2: rgba(66, 232, 152, 1);
+--bleu--clair: rgba(86, 225, 209, 1);
+--bleu: rgba(66, 182, 232, 1);
+--bleu-foncé: rgba(7, 126, 236, 1);
+--blanc: rgba(255, 255, 255, 1);
+--noir: rgba(0, 0, 0, 1);
+
+/* Text-size styles */
+--menu_title: 50px;
+--menu_lang: 75px;
+--pitch_article: 16px;
+--pitch_site: 18px;
+--article_titre: 30px;
+--article_contenu: 12px;
+--footer_eleve: 30px;
+--footer_mailto: 20px;
+--cards_titre: 22px;
+--cards_plus: 20px;
+--cards2_titre: 20px;
+--cards2_contenu: 12px;
+--forms_titre: 24px;
+--forms_exemple: 15px;
+--forms_button: 35px;
+
+/* Font-Family */
+--font-wire: 'Wire One', sans-serif;
+--font-yaldevi: 'Yaldevi', sans-serif;
+}

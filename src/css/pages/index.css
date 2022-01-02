@@ -1,0 +1,22 @@
+
+article {
+    padding-top: 15%;
+}
+
+.pitch-site {
+    padding-bottom: 10%;
+    font-size: var(--pitch_site);
+}
+
+.pitch-articles {
+display: inline-block;
+}
+
+.pitch-articles-img {
+    vertical-align: left;
+}
+
+.pitch-articles-txt {
+    font-size: var(--pitch_article);
+    text-align: right;
+}

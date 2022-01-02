@@ -1,0 +1,12 @@
+header { 
+ background-color: var(--vert-2);
+ width: 100%;
+ z-index: 1;
+ display: flex;
+ justify-content: space-between;
+}
+
+.header__end {
+    display: flex;
+    gap: var(--space2x);
+}

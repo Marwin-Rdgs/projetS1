@@ -1,0 +1,24 @@
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.title-articles {
+    font-size: var(--article_titre);
+}
+
+.contenu-articles {
+    font-size: var(--article_contenu);
+}
+
+.barre_titre {
+    width: 95%;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.miniature {
+    width: 95%;
+    align-items: center;
+    padding-bottom: 5%;
+}

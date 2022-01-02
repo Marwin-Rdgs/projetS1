@@ -1,0 +1,36 @@
+footer {
+    background-color: var(--bleu);
+}
+
+.footer_line {
+    align-items: center;
+    padding-left: 8%;
+}
+
+.footer_name {
+    font-size: var(--footer_eleve);
+    font-family: var(--font-wire);
+    text-align: left;
+    color: white;
+}
+
+.footer_mailto {
+    font-size: var(--footer_mailto);
+    text-align: left;
+    color: white;
+    padding-left: 10%;
+}
+
+.footer_logoMMI {
+    align-items: right;
+    width: 20%;
+}
+
+.footer_ml {
+    color:white;
+    text-align: center;
+}
+
+.footer_liens {
+    color: white;
+}

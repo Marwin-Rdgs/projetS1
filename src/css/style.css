@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+
+/* Components */
+@import url("components/buttons.css");
+
+/* Bases */
+@import url("bases/icons.css");
+@import url("bases/main.css");
+@import url("bases/media.css");
+@import url("bases/menu.css");
+
+/* Pages */
+@import url("pages/index.css");
+@import url("pages/articles.css");
+@import url("pages/projet.css");
+
+/* Layout */
+@import url("layout/footer.css");
+@import url("layout/header.css");
+
+/* Utils */
+@import url("utils/variables.css");
+
+/* Vendors */
+@import url("vendors/normalize.css");
