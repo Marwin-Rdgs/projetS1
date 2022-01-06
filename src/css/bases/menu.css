@@ -1,3 +1,7 @@
+body {
+  z-index: 1;
+}
+
 .nav {
   font-family: var(--font-wire);
   color: white;
@@ -16,6 +20,7 @@
   overflow-y: auto;
   transform: scale(0);
   transition: 0.5s;
+  z-index: 2;
 }
 
 #menu-overlay.active {
