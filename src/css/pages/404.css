@@ -1,0 +1,17 @@
+.form_error {
+    border-radius: 10px;
+    background: var(--vert1);
+    border: none;
+}
+
+.sitemap {
+        color: var(--bleu-clair);
+        font-family: var(--font-wire);
+        font-size: var(--index-cards-button);
+        background: var(--vert2);
+        text-align:center;
+        margin:auto;
+        display:flex;
+        margin-bottom: 5%;
+        border-radius: 10%;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Féminisme, une guerre sans fin - À Propos</title>
+</head>
+<body>
+  
+    <header>
+        <a href="./index.html"><img src="./public/img/FR_logo.png" alt='Logo de "Féminisme, une guerre sans fin"'></a>
+
+        <nav>
+    
+            <div id="toggleIcon" onclick="menuToggle()"> <img src="./public/img/open.png"> </div>
+            
+            <div id="menu-overlay" class="nav">
+                <ul class="menu_ul">
+                    <li class="menu_li menu_liens"> <img src="./public/img/close.png" id="toggleIcon" onclick="menuToggle()"> </li>
+                    <li class="menu_li"><a href="./FR_article1.html" class="menu_liens">L’épopée féminine</a></li>
+                    <li class="menu_li"><a href="./FR_article2.html" class="menu_liens">“Devenir”, la vie de Michelle Obama</a></li>
+                    <li class="menu_li"><a href="./FR_article3.html" class="menu_liens">Angela Merkel, un pilier du féminisme politique</a></li>
+                    <li class="menu_li"><a href="./FR_presentation.html" class="menu_liens">À Propos</a></li>
+                    <li class="menu_li"><a href="./FR_autresProjets.html" class="menu_liens">Autres Projets</a></li>
+                    <li class="menu_li"> <a href="./index.html" class="menu_liens"> Français </a>  <a href="./EN_index.html" class="menu_liens"> Anglais</a></li>
+                </ul>
+        
+        
+                <script type="text/javascript">
+                    function menuToggle(){
+                        var nav = document.getElementById('menu-overlay');
+                        nav.classList.toggle('active');
+        
+                        var nav = document.getElementById('toggleIcon');
+                        nav.classList.toggle('active');
+                        }
+                </script>
+        
+            </div>
+        </nav>
+    </header>
+
+
+        <!-- Titre -->
+        <h3 class="title"> <b>404 error</b> <br> <br> (fr) Page non trouvée <br> (en) Page not found </h3>
+        <img src="./public/icons/barre_titre.svg" class="barre_titre">
+
+        <form class="form_error" action="https://www.google.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + 'artificial.marwin-rodrigues.fr:'">
+
+    <input type="text" id="q" name="q" x-model="q" placeholder="Texte à chercher">
+    <button type="submit">Rechercher</button>
+
+    </form>
+
+
+<a href="./index.html"><button class="sitemap"> Accueil </button></a>
+<a href="./FR_article1.html"><button class="sitemap"> (fr) Epopée Féminine </button></a>
+<a href="./FR_article2.html"><button class="sitemap"> (fr) "Devenir", la vie de Michelle Obama </button></a>
+<a href="./FR_article3.html"><button class="sitemap"> (en) Angela Merkel, un pilier du féminisme politique </button></a>
+<a href="./FR_presentation.html"><button class="sitemap"> À propos </button></a>
+<a href="./FR_autresProjets.html"><button class="sitemap"> (fr) Autres projets </button></a>
+
+
+    <footer>
+
+        <div class="footer_line">
+    <p style="float:right"> <a href="http://mmimontbeliard.com/" target="_blank"> <img src="./public/img/MMI_logo.png" alt="Logo du MMI Montbéliard"></a> </p>
+            <a href="./FR_presentation.html" class="footer_liens"><h4 class="footer_name">Marwin Rodrigues - C1</h4></a>
+            <a href="mailto:marwinrdgs.pro@gmail.com" class="footer_liens"><h5 class="footer_mailto">mailto</h5></a> <br>
+            <p class="footer_ml">“Projet réalisé dans le cadre d’un exercice pédagogique au 
+                <a href="http://mmimontbeliard.com/" target="_blank" class="footer_liens">département MMi de Montbéliard</a>”</p>
+        </div>
+    
+        </footer>
+
+</body>
+</html>

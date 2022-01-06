@@ -16,6 +16,7 @@
 @import url("pages/articles.css");
 @import url("pages/projet.css");
 @import url("pages/contact.css");
+@import url("pages/404.css");
 
 /* Layout */
 @import url("layout/footer.css");
