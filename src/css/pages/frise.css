@@ -1,0 +1,12 @@
+.frise {
+    position: absolute;
+    z-index: 1;
+}
+
+.liste_date {
+    margin-bottom: 200px;
+}
+
+.item_date {
+    margin-bottom: 10%;
+}
