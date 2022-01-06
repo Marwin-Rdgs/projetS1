@@ -44,30 +44,35 @@
     <main>
 
         <img src="./public/img/avatar.png" alt="Avatar de Marwin Rodrigues">
-        <p>Je suis Marwin Rodrigues, étudiant en première année de MMI (Métiers du
+        <p class="presentation_txt">Je suis Marwin Rodrigues, étudiant en première année de MMI (Métiers du
             Multimédia et de l’internet) à Montbéliard. <br> <br>
             Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au sein de
             l’établissement.</p>
-            <br> <br> <br> <br>
 
             <form>
-                <fieldset>
-                    <legend> Formulaire de contact </legend>
-                    
-                    <label>Nom</label>
-                    <input type="text" placeholder="Entrez votre nom"> <br> <br> 
+                    <div class="contact_input">
+                        <label>Nom</label>
+                        <input type="text" placeholder="Entrez votre nom"> 
+                    </div>
+                    <br> 
 
-                    <label>Mail</label>
-                    <input type="text" placeholder="Entrez votre adresse mail"> <br> <br>
-
-                    <label>Objet</label>
-                    <input type="text" placeholder="Entrez l'objet du message"> <br> <br> 
-
-                    <textarea name="" id="" cols="40" rows="5" placeholder="Entrez votre message"></textarea>
+                    <div class="contact_input">
+                        <label>Mail</label>
+                        <input type="text" placeholder="Entrez votre adresse mail">
+                    </div>
                     <br>
 
-                    <button>Envoyer</button>
-                </fieldset>
+                    <div class="contact_input">
+                        <label>Objet</label>
+                        <input type="text" placeholder="Entrez l'objet du message">
+                    </div>
+
+                    <div class="contact_message">
+                        <p>Message :</p>
+                        <textarea name="" id="" cols="40" rows="5" placeholder="Entrez votre message" id="message"></textarea>
+                    </div>
+
+                    <button class="contact_button">Envoyer</button>
             </form>
 
     </main>

@@ -1,0 +1,30 @@
+input, textarea {
+    border-radius: 10px;
+    background: #FFFFFF;
+    border-color: black;
+}
+
+.presentation_txt {
+    padding-bottom: 35px;
+}
+
+.contact_input {
+    background: var(--bleu--clair);
+    border-radius: 3px;
+    width: 75%;
+}
+
+.contact_message {
+    background: var(--bleu--clair);
+    border-radius: 3px;
+    width: 90%;
+}
+
+.contact_button {
+   float: right;
+   background: var(--vert-1);
+   border-width: 2px;
+   border-color: var(--noir);
+   border-radius: 5px;
+   font-size: 25px;
+}
