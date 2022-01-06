@@ -22,3 +22,35 @@
     align-items: center;
     padding-bottom: 5%;
 }
+
+/* Article 3 */
+.carrousel {
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.droite15 {
+    grid-row: 2;
+    grid-column: 1;
+    width: 40px;
+}
+
+.images15 {
+    width: 371px;
+    height: 537px;
+    left:0;
+}
+
+.images15 img{
+    width: 371px;
+    height: 537px;
+}
+
+.image15 {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+}
