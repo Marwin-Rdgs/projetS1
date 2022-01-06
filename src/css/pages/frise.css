@@ -10,3 +10,9 @@
 .item_date {
     margin-bottom: 10%;
 }
+
+.capt {
+    text-align: right;
+    position: relative;
+    left: -500px;
+}

@@ -34,3 +34,32 @@ function carrousel() {
         }
     });
 }
+
+function glisserCote(c) {
+    let texte14 = document.querySelector("."+c);
+    texte14.style.display = "block";
+    return anime({
+        targets: "."+c,
+        translateX: '500px',
+        autoplay: false,
+        easing: 'linear',      
+        duration: 200
+    }).play	
+}
+
+function glisserDessous() {
+    let texte14 = document.querySelector("."+c);
+    texte14.style.display = "block";
+    return anime({
+        targets: "."+c,
+        translateX: '-500px',
+        autoplay: false,
+        easing: 'linear',      
+        duration: 200
+    }).play		
+}
+
+function glisser(c) {
+    glisserCote.restart(c);
+    glisserDessous.restart(c);
+}
