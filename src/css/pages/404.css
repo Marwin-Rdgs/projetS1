@@ -4,9 +4,11 @@
     border: none;
 }
 
+section a:link {
+    text-decoration: none;
+}
+
 .sitemap {
-        color: var(--bleu-clair);
-        font-family: var(--font-wire);
         font-size: var(--index-cards-button);
         background: var(--vert2);
         text-align:center;
@@ -14,4 +16,13 @@
         display:flex;
         margin-bottom: 5%;
         border-radius: 10%;
+}
+
+.sitemap_fr {
+    color: blue;
+    margin-bottom: 10%;
+}
+
+.sitemap_en {
+    color: red;
 }
