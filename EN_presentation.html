@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Feminism, an endless war - About Me</title>
+</head>
+<body>
+  
+    <header>
+        <a href="./EN_index.html"><img src="./public/img/EN_logo.png" alt='Logo of "Feminism, an endless war"'></a>
+
+        <nav>
+    
+            <div id="toggleIcon" onclick="menuToggle()"> <img src="./public/img/open.png"> </div>
+            
+            <div id="menu-overlay" class="nav">
+                <ul class="menu_ul">
+                    <li class="menu_li menu_liens"> <img src="./public/img/close.png" id="toggleIcon" onclick="menuToggle()"> </li>
+                    <li class="menu_li"><a href="./EN_article1.html" class="menu_liens">Feminine epopee</a></li>
+                    <li class="menu_li"><a href="./EN_article2.html" class="menu_liens">“Becoming”, the life of Michelle Obama</a></li>
+                    <li class="menu_li"><a href="./EN_article3.html" class="menu_liens">Angela Merkel, is a pillar of political feminism</a></li>
+                    <li class="menu_li"><a href="./EN_presentation.html" class="menu_liens">About Me</a></li>
+                    <li class="menu_li"><a href="./EN_autresProjets.html" class="menu_liens">Others Projects</a></li>
+                    <li class="menu_li"> <a href="./index.html" class="menu_liens"> French </a>  <a href="./EN_index.html" class="menu_liens"> English</a></li>
+                </ul>
+        
+        
+                <script type="text/javascript">
+                    function menuToggle(){
+                        var nav = document.getElementById('menu-overlay');
+                        nav.classList.toggle('active');
+        
+                        var nav = document.getElementById('toggleIcon');
+                        nav.classList.toggle('active');
+                        }
+                </script>
+        
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <img src="./public/img/avatar.png" alt="Avatar de Marwin Rodrigues">
+        <p class="presentation_txt">I am Marwin Rodrigues, a first-year student at MMI (Métiers du 
+            Multimédia et de l’Internet) in Montbéliard. <br> <br>
+            This site is a project carried out as part of an educational exercise within the institution.</p>
+
+            <form>
+                    <div class="contact_input">
+                        <label>Name</label>
+                        <input type="text" placeholder="Enter your name"> 
+                    </div>
+                    <br> 
+
+                    <div class="contact_input">
+                        <label>Mail</label>
+                        <input type="text" placeholder="Enter your mail">
+                    </div>
+                    <br>
+
+                    <div class="contact_input">
+                        <label>Object</label>
+                        <input type="text" placeholder="Enter the object of the message">
+                    </div>
+
+                    <div class="contact_message">
+                        <p>Message :</p>
+                        <textarea name="" id="" cols="40" rows="5" placeholder="Enter your message" id="message"></textarea>
+                    </div>
+
+                    <button class="contact_button">Send</button>
+            </form>
+
+    </main>
+
+    <footer>
+
+        <div class="footer_line">
+    <p style="float:right"> <a href="http://mmimontbeliard.com/" target="_blank"> <img src="./public/img/MMI_logo.png" alt="Logo du MMI Montbéliard"></a> </p>
+            <a href="./EN_presentation.html" class="footer_liens"><h4 class="footer_name">Marwin Rodrigues - C1</h4></a>
+            <a href="mailto:marwinrdgs.pro@gmail.com" class="footer_liens"><h5 class="footer_mailto">mailto</h5></a> <br>
+            <p class="footer_ml">“Project carried out as part of an educational exercise in the
+                <a href="http://mmimontbeliard.com/" target="_blank" class="footer_liens">MMi department of Montbéliard</a>”</p>
+        </div>
+    
+        </footer>
+
+</body>
+</html>
