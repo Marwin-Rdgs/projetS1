@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonctions.js"></script>
+    
+    <title>Feminism, an endless war - Timeline</title>
+</head>
+<body>
+  
+    <header>
+        <a href="./EN_index.html"><img src="./public/img/EN_logo.png" alt='Logo of "Feminism, an endless war"'></a>
+
+        <nav>
+    
+            <div id="toggleIcon" onclick="menuToggle()"> <img src="./public/img/open.png"> </div>
+            
+            <div id="menu-overlay" class="nav">
+                <ul class="menu_ul">
+                    <li class="menu_li menu_liens"> <img src="./public/img/close.png" id="toggleIcon" onclick="menuToggle()"> </li>
+                    <li class="menu_li"><a href="./EN_article1.html" class="menu_liens">Feminine epopee</a></li>
+                    <li class="menu_li"><a href="./EN_article2.html" class="menu_liens">“Becoming”, the life of Michelle Obama</a></li>
+                    <li class="menu_li"><a href="./EN_article3.html" class="menu_liens">Angela Merkel, is a pillar of political feminism</a></li>
+                    <li class="menu_li"><a href="./EN_presentation.html" class="menu_liens">About Me</a></li>
+                    <li class="menu_li"><a href="./EN_autresProjets.html" class="menu_liens">Others Projects</a></li>
+                    <li class="menu_li"> <a href="./index.html" class="menu_liens"> French </a>  <a href="./EN_index.html" class="menu_liens"> English</a></li>
+                </ul>
+        
+        
+                <script type="text/javascript">
+                    function menuToggle(){
+                        var nav = document.getElementById('menu-overlay');
+                        nav.classList.toggle('active');
+        
+                        var nav = document.getElementById('toggleIcon');
+                        nav.classList.toggle('active');
+                        }
+                </script>
+        
+            </div>
+        </nav>
+    </header>
+
+
+<main>
+
+    <img src="./public/img/frise.png" alt="frise du féminisme" style="float:left">
+
+    <div class="liste_date">
+
+        <div class="item_date">   
+            <button style="float:left" class="contact_button"
+            x-on:mouseover="glisserCote('capt1');"
+            x-on:mouseleave="glisserDessous('capt1');">- 800 AV.JC</button>
+            <p class="capt capt1">Appearance of the Amazons, the Warrior women.</p>
+        </div>
+
+        <div class="item_date">
+            <button style="float:left" class="contact_button"
+            x-on:mouseover="glisserCote('capt2');"
+            x-on:mouseleave="glisserDessous('capt2');">1791</button>
+            <p class="capt capt2">Appearance of the Declaration of the Rights of Women and the Citizen of Olympe de Gouges.</p>
+        </div>
+
+        <div class="item_date">
+            <button style="float:left" class="contact_button"
+            x-on:mouseover="glisserCote('capt3');"
+            x-on:mouseleave="glisserDessous('capt3');">1876</button>
+            <p class="capt capt3">Creation of the Society “Women’s Rights” by Hubertine Auclert.</p>
+        </div>
+
+        <div class="item_date">
+            <button style="float:left" class="contact_button"
+            x-on:mouseover="glisserCote('capt4');"
+            x-on:mouseleave="glisserDessous('capt4');">1903</button>
+            <p class="capt capt4">Marie Curie receives the Nobel Prize in Physics.</p>
+        </div>
+
+        <div class="item_date">
+            <button style="float:left" class="contact_button"
+            x-on:mouseover="glisserCote('capt5');"
+            x-on:mouseleave="glisserDessous('capt5');">1949</button>
+            <p class="capt capt5">Publication of “Le deuxième sexe” by Simone de Beauvoir</p>
+        </div>
+
+        <div class="item_date">
+            <button style="float:left" class="contact_button"
+            x-on:mouseover="glisserCote('capt6');"
+            x-on:mouseleave="glisserDessous('capt6');">1981</button>
+            <p class="capt capt6">Yvette Roudy Deputy Minister for Women’s Rights.</p>
+        </div>
+
+        <div class="item_date">
+            <button style="float:left" class="contact_button"
+            x-on:mouseover="glisserCote('capt7');"
+            x-on:mouseleave="glisserDessous('capt7');">2015</button>
+            <p class="capt capt7">Angela Merkel agrees to welcome Syrian refugees</p>
+        </div>
+
+        <div class="item_date">
+            <button style="float:left" class="contact_button"
+            x-on:mouseover="glisserCote('capt8');"
+            x-on:mouseleave="glisserDessous('capt8');">2018</button>
+            <p class="capt capt8">The book “Devenir” by Michelle Obama was released.</p>
+        </div>
+
+    </div>
+
+</main>
+
+    <footer>
+
+        <div class="footer_line">
+    <p style="float:right"> <a href="http://mmimontbeliard.com/" target="_blank"> <img src="./public/img/MMI_logo.png" alt="Logo du MMI Montbéliard"></a> </p>
+            <a href="./EN_presentation.html" class="footer_liens"><h4 class="footer_name">Marwin Rodrigues - C1</h4></a>
+            <a href="mailto:marwinrdgs.pro@gmail.com" class="footer_liens"><h5 class="footer_mailto">mailto</h5></a> <br>
+            <p class="footer_ml">“Project carried out as part of an educational exercise in the
+                <a href="http://mmimontbeliard.com/" target="_blank" class="footer_liens">MMi department of Montbéliard</a>”</p>
+        </div>
+    
+        </footer>
+
+</body>
+</html>
