@@ -47,7 +47,7 @@ function glisserCote(c) {
     }).play	
 }
 
-function glisserDessous() {
+function glisserDessous(c) {
     let texte14 = document.querySelector("."+c);
     texte14.style.display = "block";
     return anime({
@@ -57,9 +57,4 @@ function glisserDessous() {
         easing: 'linear',      
         duration: 200
     }).play		
-}
-
-function glisser(c) {
-    glisserCote.restart(c);
-    glisserDessous.restart(c);
 }
